@@ -1,0 +1,150 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #f1f1f1;
+	font-family: arial;
+	box-sizing: border-box;
+}
+.card-container{
+	width: 300px;
+	height: 430px;
+	background: #FFF;
+	border-radius: 6px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0px 1px 10px 1px #000;
+	overflow: hidden;
+	display: inline-block;
+}
+.upper-container{
+	height: 150px;
+	background: #7F00FF;
+}
+.image-container{
+	background: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	padding: 5px;
+	transform: translate(100px,100px);
+}
+.image-container img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.lower-container{
+	height: 280px;
+	background: #FFF;
+	padding: 20px;
+	padding-top: 40px;
+	text-align: center;
+}
+.lower-container h3, h4{
+	box-sizing: border-box;
+	line-height: .6;
+	font-weight: lighter;
+}
+.lower-container h4{
+	font-size: 30px;
+	color: #7F00FF;
+	opacity: .6;
+	font-weight: bold;
+}
+.lower-container p{
+	font-size: 13px;
+	color: gray;
+	margin-bottom: 30px;
+}
+.lower-container .btn{
+	padding: 12px 20px;
+	background: #7F00FF;
+	border: none;
+	color: white;
+	border-radius: 30px;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all .3s ease-in;
+}
+.lower-container .btn:hover{
+	background: transparent;
+	color: #7F00FF;
+	border: 2px solid #7F00FF;
+}
+.btnContainer{
+	display: block ;
+}
+.HomeBtn{
+	margin-top : 10px ;
+	display: block ;
+}
+.cartRoot {
+	width: 100%;
+	height: 100%;
+	margin : 0 ;
+	padding : 0 ;
+	height: auto;
+	overflow: hidden;
+}
+.cartContainer {
+
+	width: 100%;
+	height: 100%;
+}
+
+.productSection {
+	margin : 20px ;
+	width: auto;
+	float: left;
+}
+.cartBtn{
+	margin: 20px ;
+	display: flex ; 
+	justify-content: flex-end;
+	right: 0;
+}
+.cartContent{
+	display: inline-block;
+}
+.CoursesTitle {
+margin-left: 10% ;
+font-size: 20px;
+color : black ;
+font-weight: bolder;
+}
+.CoursesPrice{
+	float: right ;
+	
+}
+.sideCard {
+	float: right;
+	margin : 20px ;
+	width: 500px;
+	height: 25vw;
+	background-color: #5630ef;
+	border-radius: 20px;
+}
+.cart-totalAmountTitle{ 
+ color : white ;
+
+ margin-left: 10%;
+ margin-top: 10%;
+ 
+ border-radius: 20px;
+}
+.cart-totalAmountPrice{
+	margin-top : 10px ;
+	color : white ;
+	margin-left: 10%;
+}
+.checkoutBtn{
+	margin-left: 15%;
+	padding-top : 2% ;
+	padding-bottom: 2%;
+	width: 70%;
+	align-content: center;
+
+}
